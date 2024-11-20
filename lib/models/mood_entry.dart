@@ -26,7 +26,7 @@ class MoodEntry {
     );
 
     Map<String, dynamic> toJson() => {
-        "model": model,
+        "model": model,    
         "pk": pk,
         "fields": fields.toJson(),
     };
